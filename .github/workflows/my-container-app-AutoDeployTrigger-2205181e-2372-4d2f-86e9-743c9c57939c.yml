@@ -5,7 +5,7 @@ on:
   # Automatically trigger it when detected changes in repo
   push:
     branches: 
-      [ main ]
+      [ dev ]
     paths:
     - '**'
     - '.github/workflows/my-container-app-AutoDeployTrigger-2205181e-2372-4d2f-86e9-743c9c57939c.yml'

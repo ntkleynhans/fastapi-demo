@@ -6,7 +6,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-origins = ["*"]
+origins = ["https://lively-grass-0786dc103.2.azurestaticapps.net"]
 
 app.add_middleware(
     CORSMiddleware,
